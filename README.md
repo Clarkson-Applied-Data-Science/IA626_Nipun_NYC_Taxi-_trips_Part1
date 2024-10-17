@@ -7,8 +7,8 @@
   
 | Attribute                     | Value                                         |
 |-------------------------------|-----------------------------------------------|
-| `Pickup Datetime Range`       | 2013-10-01 00:00:00 - 2013-10-31 23:59:59     |
-|` Dropoff Datetime Range`      | 2013-10-01 00:00:00 - 2013-11-01 03:17:34     |
+| `Pickup Datetime Range`       | 2013-10-01 00:00:00 to 2013-10-31 23:59:59     |
+|` Dropoff Datetime Range`      | 2013-10-01 00:00:00 to 2013-11-01 03:17:34     |
 |` Row count including header`  | 15004557                                      |
 
                          
@@ -66,12 +66,21 @@
 | `passenger_count`  | INT(3)           |
 | `trip_time_in_secs`| INT(10)          |
 | `trip_distance`    | DECIMAL(4,2)     |
-| `pickup_longitude` | DECIMAL(3,6)     |
-| `pickup_latitude`  | DECIMAL(3,6)     |
-| `dropoff_longitude`| DECIMAL(3,6)     |
-| `dropoff_latitude` | DECIMAL(3,6)     |
+| `pickup_longitude` | DECIMAL(5,6)     |
+| `pickup_latitude`  | DECIMAL(5,6)     |
+| `dropoff_longitude`| DECIMAL(5,6)     |
+| `dropoff_latitude` | DECIMAL(5,6)     |
 
-  
-  
+
+- What is the geographic range of your data (min/max - X/Y)?
+
+| Attribute                | Range                   |
+|--------------------------|-------------------------|
+| Pickup Longitude Range    | -74.258698 to -73.70034  |
+| Pickup Latitude Range     | 40.485001 to 40.917484   |
+| Dropoff Longitude Range   | -74.258698 to -73.700272 |
+| Dropoff Latitude Range    | 40.481312 to 40.917568   |
+
+
 
   
