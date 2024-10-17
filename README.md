@@ -60,7 +60,7 @@
 | `hack_license`     | VARCHAR(32)      |
 | `vendor_id`        | VARCHAR(3)       |
 | `rate_code`        | INT(3)           |
-| `store_and_fwd_flag`| BOOLEAN          |
+| `store_and_fwd_flag`| BOOLEAN         |
 | `pickup_datetime`  | DATETIME         |
 | `dropoff_datetime` | DATETIME         |
 | `passenger_count`  | INT(3)           |
@@ -72,15 +72,15 @@
 | `dropoff_latitude` | DECIMAL(5,6)     |
 
 
-- What is the geographic range of your data (min/max - X/Y)?
+- What is the geographic range of your data (min/max - X/Y)? Plot this (approximately on a map)
 
 | Attribute                | Range                   |
 |--------------------------|-------------------------|
-| Pickup Longitude Range    | -74.258698 to -73.70034  |
-| Pickup Latitude Range     | 40.485001 to 40.917484   |
-| Dropoff Longitude Range   | -74.258698 to -73.700272 |
-| Dropoff Latitude Range    | 40.481312 to 40.917568   |
+| `Pickup Longitude Range`    | -74.258698 to -73.70034  |
+| `Pickup Latitude Range`     | 40.485001 to 40.917484   |
+| `Dropoff Longitude Range`  | -74.258698 to -73.700272 |
+| `Dropoff Latitude Range`    | 40.481312 to 40.917568   |
 
-
+#### Plot 
 
   
