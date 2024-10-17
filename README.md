@@ -82,7 +82,35 @@
 | `Dropoff Latitude Range`    | 40.481312 to 40.917568   |
 
 #### Plot 
-![Capture](https://github.com/user-attachments/assets/d4029a3e-5b29-4e62-bd44-998873aa94b8)
+![Capture](https://github.com/user-attachments/assets/87286f84-bfdf-4fd2-aa2d-8756ae5aff20)
+
+
+- What is the average overall computed trip distance? (You should use Haversine Distance). Draw a histogram of the trip distances binned anyway you see fit.
+
+
+
+- What are the distinct values for each field? (If applicable)
+
+| Attribute               | Values                                                                                                                                                                               |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `Medallions`              | ['115166F8B584AADB44EAB0B0E8240F8B', 'E6E5919C2782FCC4D9BC84E48A84C64B', 'E3292CAFA701D5DD70AD44148050ED9A', '723F4EC1E70E69A884423C87795E74D2', 'A910CF5A84FFE5F10B8CCBC06CC5F944'] |
+| `Hack Licenses`           | ['6CE9D8A210B4E79D629F37C17B653F1A', '4B47F53D9856A828C6E5CA9B02DEFE5F', 'FBCA24C1B0ADB56EE291F4C419860070', 'A7725619DC0B5CDAD027F19ABB7FECA0', 'D362B392C8E55DF20A73F814A63DE173'] |
+| `Vendor IDs`              | ['VTS', 'CMT']                                                                                                                                                                       |
+| `Rate Codes`              | ['2', '210', '5', '6', '3']                                                                                                                                                          |
+| `Store and Forward Flags` | ['', 'Y', 'N']                                                                                                                                                                       |
+| `Pickup Datetimes`        | ['2013-10-07 13:20:29', '2013-10-03 22:18:53', '2013-10-21 08:59:07', '2013-10-18 21:02:50', '2013-10-19 19:17:42']                                                                  |
+| `Dropoff Datetimes`       | ['2013-10-07 13:20:29', '2013-10-03 22:18:53', '2013-10-21 08:59:07', '2013-10-18 21:02:50', '2013-10-19 19:17:42']                                                                  |
+| `Passenger Counts`        | ['2', '5', '6', '3', '0']                                                                                                                                                            |
+| `Trip Times (in seconds)` | ['5790', '8033', '2884', '6120', '1863']                                                                                                                                             |
+| `Trip Distances`          | ['.56', '8.26', '17.00', '5.91', '16.57']                                                                                                                                            |
+| `Pickup Longitudes`       | ['-73.765411', '-73.904625', '-73.962646', '-73.856339', '-73.797714']                                                                                                               |
+| `Pickup Latitudes`        | ['40.690987', '40.730583', '40.690014', '40.699039', '40.733723']                                                                                                                    |
+| `Dropoff Longitudes`      | ['', '-73.765411', '-73.688354', '-74.086716', '-73.702919']                                                                                                                         |
+| `Dropoff Latitudes`       | ['', '40.690987', '40.690014', '40.699039', '40.733723']                                                                                                                             |
+
+
+  
+
 
 
   
