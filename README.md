@@ -76,16 +76,22 @@
 
 | Attribute                | Range                   |
 |--------------------------|-------------------------|
-| `Pickup Longitude Range`    | -74.258698 to -73.70034  |
-| `Pickup Latitude Range`     | 40.485001 to 40.917484   |
-| `Dropoff Longitude Range`  | -74.258698 to -73.700272 |
-| `Dropoff Latitude Range`    | 40.481312 to 40.917568   |
+| `Pickup Longitude Range`  | -126.01752 to 83.433357 |
+| `Pickup Latitude Range`   | -49.456242 to 75.69104  |
+| `Dropoff Longitude Range` | -126.01752 to 160.58011 |
+| `Dropoff Latitude Range`  | -49.456242 to 75.69104  |
+
 
 #### Plot 
-![Capture](https://github.com/user-attachments/assets/87286f84-bfdf-4fd2-aa2d-8756ae5aff20)
+![Capture](https://github.com/user-attachments/assets/112e7a8d-5dd7-47d9-ab47-78b93d4ece3f)
 
 
 - What is the average overall computed trip distance? (You should use Haversine Distance). Draw a histogram of the trip distances binned anyway you see fit.
+
+The average trip distance is: 2.19875852169262 miles
+#### Histogram
+![histogram](https://github.com/user-attachments/assets/85d3a848-041f-4368-81da-df702b2f8a72)
+
 
 
 
@@ -109,7 +115,19 @@
 | `Dropoff Latitudes`       | ['', '40.690987', '40.690014', '40.699039', '40.733723']                                                                                                                             |
 
 
-  
+- For other numeric types besides lat and lon, what are the min and max values?
+
+| Attribute         | Min Value | Max Value |
+|-------------------|-----------|-----------|
+| `rate_code`       | 0         | 9         |
+| `passenger_count` | 0         | 9         |
+| `trip_time_in_secs` | 0         | 9999      |
+| `trip_distance`   | 0         | 99.2      |
+
+
+- Create a chart which shows the average number of passengers each hour of the day. (X axis should have 24 hours)
+- 
+
 
 
 
