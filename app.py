@@ -377,4 +377,7 @@ plt.ylabel('Average Number of Passengers')
 plt.grid(True)
 plt.show()
 
+# %% [markdown]
+# Chart comparison shows that there is a low demand for taxi rides between 6th and 7th hour of the day. This trend is seen in original dataset as well as the reduced dataset. 
+
 
