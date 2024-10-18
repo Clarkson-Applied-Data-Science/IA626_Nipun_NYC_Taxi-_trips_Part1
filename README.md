@@ -60,12 +60,12 @@
 | `medallion`        | VARCHAR(32)      |
 | `hack_license`     | VARCHAR(32)      |
 | `vendor_id`        | VARCHAR(3)       |
-| `rate_code`        | INT(3)           |
+| `rate_code`        | INT           |
 | `store_and_fwd_flag`| BOOLEAN         |
 | `pickup_datetime`  | DATETIME         |
 | `dropoff_datetime` | DATETIME         |
-| `passenger_count`  | INT(3)           |
-| `trip_time_in_secs`| INT(10)          |
+| `passenger_count`  | INT           |
+| `trip_time_in_secs`| INT          |
 | `trip_distance`    | DECIMAL(5,2)     |
 | `pickup_longitude` | DECIMAL(10,6)     |
 | `pickup_latitude`  | DECIMAL(10,6)     |
