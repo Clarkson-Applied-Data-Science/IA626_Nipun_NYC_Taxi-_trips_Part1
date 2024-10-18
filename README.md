@@ -66,11 +66,11 @@
 | `dropoff_datetime` | DATETIME         |
 | `passenger_count`  | INT(3)           |
 | `trip_time_in_secs`| INT(10)          |
-| `trip_distance`    | DECIMAL(4,2)     |
-| `pickup_longitude` | DECIMAL(5,6)     |
-| `pickup_latitude`  | DECIMAL(5,6)     |
-| `dropoff_longitude`| DECIMAL(5,6)     |
-| `dropoff_latitude` | DECIMAL(5,6)     |
+| `trip_distance`    | DECIMAL(5,2)     |
+| `pickup_longitude` | DECIMAL(10,6)     |
+| `pickup_latitude`  | DECIMAL(10,6)     |
+| `dropoff_longitude`| DECIMAL(10,6)     |
+| `dropoff_latitude` | DECIMAL(10,6)     |
 
 
 ### 5. What is the geographic range of your data (min/max - X/Y)? Plot this (approximately on a map)
