@@ -3,7 +3,8 @@
 ### Dataset : trip_data_10.csv
 
 ### Questions 
-- What datetime range does your data cover?  How many rows are there total?
+
+### 1. What datetime range does your data cover?  How many rows are there total?
   
 | Attribute                     | Value                                         |
 |-------------------------------|-----------------------------------------------|
@@ -12,7 +13,7 @@
 |` Row count including header`  | 15004557                                      |
 
                          
-- What are the field names?  Give descriptions for each field.
+### 2. What are the field names?  Give descriptions for each field.
   
 | Field                | Description                                                                                         |
 |----------------------|-----------------------------------------------------------------------------------------------------|
@@ -32,7 +33,7 @@
 | `dropoff_latitude`   | The latitude coordinate of the location where the passenger was dropped off.                        |
 
 
-- Give some sample data for each field.
+### 3. Give some sample data for each field.
 
 | Field Names        | Sample Data                      |
 |--------------------|----------------------------------|
@@ -52,7 +53,7 @@
 | `dropoff_latitude` | 40.742424                        |
 
 
-- What MySQL data types / len would you need to store each of the fields?
+### 4. What MySQL data types / len would you need to store each of the fields?
 
 | Column Name        | Data Type        |
 |--------------------|------------------|
@@ -72,7 +73,7 @@
 | `dropoff_latitude` | DECIMAL(5,6)     |
 
 
-- What is the geographic range of your data (min/max - X/Y)? Plot this (approximately on a map)
+### 5. What is the geographic range of your data (min/max - X/Y)? Plot this (approximately on a map)
 
 | Attribute                | Range                   |
 |--------------------------|-------------------------|
@@ -86,16 +87,14 @@
 ![Capture](https://github.com/user-attachments/assets/112e7a8d-5dd7-47d9-ab47-78b93d4ece3f)
 
 
-- What is the average overall computed trip distance? (You should use Haversine Distance). Draw a histogram of the trip distances binned anyway you see fit.
+### 6. What is the average overall computed trip distance? (You should use Haversine Distance). Draw a histogram of the trip distances binned anyway you see fit.
 
 The average trip distance is: 2.19875852169262 miles
 #### Histogram
 ![histogram](https://github.com/user-attachments/assets/85d3a848-041f-4368-81da-df702b2f8a72)
 
 
-
-
-- What are the distinct values for each field? (If applicable)
+### 7. What are the distinct values for each field? (If applicable)
 
 | Attribute               | Values                                                                                                                                                                               |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,7 +114,7 @@ The average trip distance is: 2.19875852169262 miles
 | `Dropoff Latitudes`       | ['', '40.690987', '40.690014', '40.699039', '40.733723']                                                                                                                             |
 
 
-- For other numeric types besides lat and lon, what are the min and max values?
+### 8. For other numeric types besides lat and lon, what are the min and max values?
 
 | Attribute         | Min Value | Max Value |
 |-------------------|-----------|-----------|
@@ -124,9 +123,12 @@ The average trip distance is: 2.19875852169262 miles
 | `trip_time_in_secs` | 0         | 9999      |
 | `trip_distance`   | 0         | 99.2      |
 
+### 9. Create a chart which shows the average number of passengers each hour of the day. (X axis should have 24 hours)
+![Q9](https://github.com/user-attachments/assets/84069474-4d4f-4ddf-9bb8-743b72e64a57)
 
-- Create a chart which shows the average number of passengers each hour of the day. (X axis should have 24 hours)
-- 
+### 11.	Repeat step 9 with the reduced dataset and compare the two charts.
+![Q11](https://github.com/user-attachments/assets/c45052f1-b6cd-44d4-a287-2493a9f48afe)
+
 
 
 
